@@ -1,0 +1,2 @@
+curl http://localhost:12345/api/Sample/BookSamplePost -d "{'Author':'Douglas Adams','Title':'The Hitchhiker\'s Guide to the Galaxy'}" -i -H "Content-Type: application/json" -X POST
+curl http://localhost:12345/api/Sample/ArraySample -d "{'data':[1,2,3,4,5]}" -i -H "Content-Type: application/json" -X POST
